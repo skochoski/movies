@@ -16,22 +16,23 @@ Link to Problem Description (Условие) and Resources (Ресурси) [her
 * **Set up libraries**
     * Set up index.html with the required libraries in script tags;
     * Set up firebase app;
-    * Add firebase configs inside your index.html file;
+    * Add firebase configs inside your index.html file;\
         *Note:* _If you are using handlebars with sammy you must include also sammy-handlebars in your index.html_
 
 * **Config Sammy.js (if Sammy.js is used)**
 
     _initialize the application_
-const app = Sammy('#main', function() {
-    _define the template engine your app will use_
-    this.use('Handlebars', 'hbs');
+const app = Sammy('#main', function() {\
 
-    _define your routes and handlers/controllers_
-    this.get('#/', homeViewHandler);
-    ...
-  });
-  _start the application_
-  app.run('#/');
+    _define the template engine your app will use_\
+    this.use('Handlebars', 'hbs');\
+
+    _define your routes and handlers/controllers_\
+    this.get('#/', homeViewHandler);\
+    ...\
+  });\
+  _start the application_\
+  app.run('#/');\
 Look at the docs here: http://www.sammyjs.org/
 
 * **Firebase DB config**
