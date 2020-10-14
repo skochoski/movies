@@ -24,7 +24,7 @@ Link to Problem Description (Условие) and Resources (Ресурси) [her
     * Initialize the application;
     * Set handlebars as template engine if used;
     * Define your routes and handlers/controllers;
-    * Start the application;
+    * Start the application;\
         *Docs* [here](http://www.sammyjs.org/).
 
 * **Firebase DB config**
