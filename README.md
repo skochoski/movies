@@ -21,19 +21,20 @@ Link to Problem Description (Условие) and Resources (Ресурси) [her
 
 * **Config Sammy.js (if Sammy.js is used)**
 
-    _initialize the application_
-const app = Sammy('#main', function() {\
+    _initialize the application_&nbsp
+const app = Sammy('#main', function() {
 
-    _define the template engine your app will use_\
-    this.use('Handlebars', 'hbs');\
+&nbsp _define the template engine your app will use_
+&nbsp this.use('Handlebars', 'hbs');
 
-    _define your routes and handlers/controllers_\
-    this.get('#/', homeViewHandler);\
-    ...\
-  });\
-  _start the application_\
-  app.run('#/');\
-Look at the docs here: http://www.sammyjs.org/
+&nbsp _define your routes and handlers/controllers_
+&nbsp this.get('#/', homeViewHandler);
+&nbsp ...
+&nbsp});
+&nbsp _start the application_
+&nbsp app.run('#/');
+
+Look at the docs [here](http://www.sammyjs.org/).
 
 * **Firebase DB config**
 
