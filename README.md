@@ -21,17 +21,16 @@ Link to Problem Description (Условие) and Resources (Ресурси) [her
 
 * **Config Sammy.js (if Sammy.js is used)**
 
-    _initialize the application_&nbsp
-const app = Sammy('#main', function() {
+    _initialize the application_
+&nbsp const app = Sammy('#main', function() {
 
-&nbsp _define the template engine your app will use_
+    _define the template engine your app will use_
 &nbsp this.use('Handlebars', 'hbs');
-
-&nbsp _define your routes and handlers/controllers_
+    _define your routes and handlers/controllers_
 &nbsp this.get('#/', homeViewHandler);
 &nbsp ...
 &nbsp});
-&nbsp _start the application_
+    _start the application_
 &nbsp app.run('#/');
 
 Look at the docs [here](http://www.sammyjs.org/).
